@@ -1,1 +1,12 @@
-//
+/********** APP MAIN STYLE **********/
+// GENERAL
+@import 'partials/vars';
+@import 'partials/default';
+@import 'partials/utilities';
+
+// SECTION
+@import 'partials/header';
+@import 'partials/home-main';
+@import 'partials/comics-main';
+@import 'partials/show-main';
+@import 'partials/error-404';

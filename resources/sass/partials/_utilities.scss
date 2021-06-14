@@ -1,0 +1,23 @@
+/* UTILITIES */
+/* Layout */
+.container{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+/* Flex */
+.flex{
+    display: flex;
+}
+.ai-center{
+    align-items: center;
+}
+.jc-center{
+    justify-content: center;
+}
+
+/* List */
+.nav-list{
+    display: flex;
+    list-style: none;
+}

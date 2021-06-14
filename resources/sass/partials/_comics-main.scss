@@ -1,0 +1,18 @@
+/* COMICS MAIN */
+.comics-main{
+    padding: 40px;
+    flex-direction: column;
+
+    .comics-title{
+        margin-bottom: 50px;
+        font-size: 3rem;
+    }
+
+    .comics-table{
+        border-collapse: collapse;
+        th, td{
+            padding: 5px 10px;
+            border: 1px solid #fff;
+        }
+    }
+}

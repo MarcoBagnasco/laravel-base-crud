@@ -9,6 +9,11 @@
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
 
+        <!-- Favicon -->
+        <link rel="icon" type="image/png" href="{{ asset('images/favicon.ico') }}">
+
+        <!-- Style -->
+        <link rel="stylesheet" href="{{asset('css/app.css')}}">
     </head>
     <body>
         <!-- MAIN HEADER -->

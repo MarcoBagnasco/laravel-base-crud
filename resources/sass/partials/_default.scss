@@ -1,0 +1,23 @@
+/* GENERAL */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $primary-font;
+}
+body{
+    padding-top: 150px;
+    text-align: center;
+    font-size: 18px;
+    color: $text-col;
+    background-color: $bg-color;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+    transition: color .3s;
+
+    &:hover{
+        color: $brand-col;
+    }
+}

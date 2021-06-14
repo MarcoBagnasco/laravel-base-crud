@@ -1,0 +1,133 @@
+/********** APP MAIN STYLE **********/
+/* GENERAL */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+}
+
+body {
+  padding-top: 150px;
+  text-align: center;
+  font-size: 18px;
+  color: #fff;
+  background-color: #333;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+a:hover {
+  color: #0c7cec;
+}
+
+/* UTILITIES */
+/* Layout */
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+/* Flex */
+.flex {
+  display: flex;
+}
+
+.ai-center {
+  align-items: center;
+}
+
+.jc-center {
+  justify-content: center;
+}
+
+/* List */
+.nav-list {
+  display: flex;
+  list-style: none;
+}
+
+/* MAIN HEADER */
+.main-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+  padding: 15px;
+  background-color: #000;
+}
+.main-header nav {
+  margin-left: 100px;
+}
+.main-header nav li {
+  width: 85px;
+  height: 85px;
+  margin: 0 20px;
+  font-weight: bold;
+  border: 2px solid transparent;
+  border-radius: 50%;
+}
+.main-header nav li.active {
+  border-color: #0c7cec;
+  color: #0c7cec;
+}
+
+/* HOME MAIN */
+.home-main {
+  padding-top: 200px;
+}
+.home-main .home-title {
+  font-size: 5rem;
+}
+
+/* COMICS MAIN */
+.comics-main {
+  padding: 40px;
+  flex-direction: column;
+}
+.comics-main .comics-title {
+  margin-bottom: 50px;
+  font-size: 3rem;
+}
+.comics-main .comics-table {
+  border-collapse: collapse;
+}
+.comics-main .comics-table th, .comics-main .comics-table td {
+  padding: 5px 10px;
+  border: 1px solid #fff;
+}
+
+/* SHOW MAIN */
+.show-main {
+  padding: 20px 50px;
+}
+.show-main .show-title {
+  margin-bottom: 40px;
+  font-size: 2.5rem;
+}
+.show-main h3 {
+  margin: 10px;
+}
+.show-main .description {
+  margin: 20px 0;
+  text-align: left;
+}
+
+/* ERROR 404 */
+.error-404 {
+  height: 60vh;
+  margin-top: 50px;
+  padding: 50px;
+  background-image: url("../images/back-404.jpg");
+  background-position: 50% 50%;
+}
+.error-404 .error-title {
+  margin: 20px;
+}
+.error-404 h3 {
+  margin-bottom: 20px;
+}

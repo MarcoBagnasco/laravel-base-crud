@@ -1,0 +1,28 @@
+/* MAIN HEADER */
+.main-header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    padding: 15px;
+    background-color: #000;
+
+    nav{
+        margin-left: 100px;
+
+        li{
+            width: 85px;
+            height: 85px;
+            margin: 0 20px;
+            font-weight: bold;
+            border: 2px solid transparent;
+            border-radius: 50%;
+
+            &.active{
+                border-color: $brand-col;
+                color: $brand-col;
+            }
+        }
+    }
+}
